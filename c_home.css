@@ -1,0 +1,89 @@
+
+
+
+
+margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+
+
+
+#chpw{
+		color:white;
+		position: absolute;
+		left: 150px;
+		top: 300px;
+}
+#emr {
+	position: absolute;
+	left: 650px;
+    top: 220px;
+	text-align:left;
+	background-color:lightgrey;
+	color:blue;
+	font-size:15px;
+    width: 400px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+h3 ,h5,h4{
+	color: #FF4500;
+	letter-spacing: 3px;
+}
+#abt {
+	position: absolute;
+	left: 100px;
+    top: 220px;
+	text-align:left;
+	background-color:lightgrey;
+	color:blue;
+	font-size:20px;
+    width: 300px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+#bak {
+	opacity: 0.8;
+    filter: alpha(opacity=50);
+    width:100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+	letter-spacing: 3px;
+    overflow: hidden;
+	position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Britannic", Times, serif;
+    letter-spacing:3px;
+}
+
+li a:hover {
+    color:#FF4500;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes example {
+    from {color: white;}
+    to {color: #FF4500;}
+}
+

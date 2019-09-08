@@ -1,0 +1,129 @@
+div.container {
+    width: 100%;
+    border: 10px solid gray;
+}
+#sh{
+	float:right;
+}
+header, footer {
+    padding: 1em;
+    color: #A71930;
+    background-color:#222C56;
+    clear: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222C56;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	letter-spacing: 3px;
+	font-family: "Britannic", Times, serif;
+}
+
+li a:hover {
+    background-color: #A71930;
+}
+
+#nav {
+    width: 165px;
+    height: 45px;
+    overflow: hidden;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+#nav:hover {
+    width: 100%;
+}
+
+#emr {
+	float:left;
+	text-align:left;
+	color:blue;
+	font-size:15px;
+    width: 400px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+#etb {
+	float:left;
+	text-align:left;
+	color:blue;
+	font-size:15px;
+    width: 400px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+h3 ,h5,h4{
+	color: #A71930;
+	letter-spacing: 3px;
+}
+article{
+	background-image:url('article.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: auto;
+	min-height:100%;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+	font-weight: bold;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+
+input[type="submit"],input[type="reset"]{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover,input[type="reset"]:hover {
+  background-color: #f44336;
+    color: white;
+}
